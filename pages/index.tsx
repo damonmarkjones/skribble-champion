@@ -2,7 +2,6 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 import { Player, playerScores } from "../data/player-scores";
-import { useEffect } from "react";
 
 export default function Home() {
   const scores = playerScores();
