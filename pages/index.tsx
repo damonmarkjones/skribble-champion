@@ -1,7 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
-import { Player, playerScores } from "../data/player-scores";
+import { Player, playerScores, highScore } from "../data/player-scores";
+import { DateTime } from "luxon";
 
 export default function Home() {
   const scores = playerScores();
@@ -39,6 +40,11 @@ export default function Home() {
             </tbody>
           </table>
         </div>
+        <p className={styles.highscore}>
+          {highScore.player} has the highest score of {highScore.score} achieved on{" "}
+          {highScore.date.toLocaleString(DateTime.DATE_MED_WITH_WEEKDAY)}
+        </p>
+        <p className={styles.disclaimer}>* High score tracking started on the 20th Jan</p>
       </main>
     </>
   );

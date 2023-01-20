@@ -4,6 +4,16 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  font-family: var(--font-mono);
+}
+
+.highscore {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.disclaimer {
+  font-size: 0.6rem;
 }
 
 .description {

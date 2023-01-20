@@ -1,8 +1,22 @@
+import { DateTime } from "luxon";
+
 export interface Player {
   name: string;
   played: number;
   wins: number;
 }
+
+export interface HighScore {
+  score: number;
+  player: string;
+  date: DateTime;
+}
+
+export const highScore: HighScore = {
+  score: 2250,
+  player: "Davide",
+  date: DateTime.fromFormat("2023-01-20", "yyyy-mm-dd"),
+};
 
 const players: Player[] = [
   {
@@ -12,7 +26,7 @@ const players: Player[] = [
   },
   {
     name: "Damo",
-    played: 2,
+    played: 3,
     wins: 1,
   },
   {
@@ -22,7 +36,7 @@ const players: Player[] = [
   },
   {
     name: "Mally",
-    played: 2,
+    played: 3,
     wins: 0,
   },
   {
@@ -32,7 +46,7 @@ const players: Player[] = [
   },
   {
     name: "Qal",
-    played: 2,
+    played: 3,
     wins: 0,
   },
   {
@@ -42,13 +56,13 @@ const players: Player[] = [
   },
   {
     name: "Eva",
-    played: 2,
+    played: 3,
     wins: 0,
   },
   {
     name: "Davide",
-    played: 2,
-    wins: 0,
+    played: 3,
+    wins: 1,
   },
 ];
 
