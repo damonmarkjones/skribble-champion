@@ -23,7 +23,7 @@ export default function Home() {
             <thead>
               <tr>
                 <th>#</th>
-                <th>Player</th>
+                <th className={styles.left}>Player</th>
                 <th>Played</th>
                 <th>Wins</th>
               </tr>
