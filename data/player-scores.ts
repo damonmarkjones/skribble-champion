@@ -21,12 +21,12 @@ export const highScore: HighScore = {
 const players: Player[] = [
   {
     name: "Jen",
-    played: 5,
+    played: 6,
     wins: 3,
   },
   {
     name: "Damo",
-    played: 5,
+    played: 6,
     wins: 1,
   },
   {
@@ -36,8 +36,8 @@ const players: Player[] = [
   },
   {
     name: "Mally",
-    played: 5,
-    wins: 0,
+    played: 6,
+    wins: 1,
   },
   {
     name: "Tom",
@@ -46,27 +46,27 @@ const players: Player[] = [
   },
   {
     name: "Qal",
-    played: 6,
+    played: 7,
     wins: 0,
   },
   {
     name: "Edward",
-    played: 5,
+    played: 6,
     wins: 0,
   },
   {
-    name: "Eva (aka Soviet Union)",
-    played: 5,
+    name: "Eva",
+    played: 6,
     wins: 0,
   },
   {
     name: "Davide",
-    played: 6,
+    played: 7,
     wins: 1,
   },
   {
     name: "Liaaaaaam",
-    played: 3,
+    played: 4,
     wins: 1,
   },
 ];
