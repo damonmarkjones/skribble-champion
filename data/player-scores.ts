@@ -26,18 +26,18 @@ const players: Player[] = [
   },
   {
     name: "Damo",
-    played: 6,
+    played: 9,
     wins: 1,
   },
   {
     name: "Patt",
-    played: 3,
+    played: 5,
     wins: 0,
   },
   {
     name: "Mally",
-    played: 6,
-    wins: 1,
+    played: 8,
+    wins: 2,
   },
   {
     name: "Tom",
@@ -46,28 +46,33 @@ const players: Player[] = [
   },
   {
     name: "Qal",
-    played: 7,
+    played: 10,
     wins: 0,
   },
   {
     name: "Edward",
-    played: 6,
-    wins: 0,
+    played: 9,
+    wins: 1,
   },
   {
     name: "Eva",
-    played: 6,
+    played: 7,
     wins: 0,
   },
   {
     name: "Davide",
-    played: 7,
+    played: 8,
     wins: 1,
   },
   {
     name: "Liaaaaaam",
-    played: 4,
-    wins: 1,
+    played: 7,
+    wins: 2,
+  },
+  {
+    name: "Beth",
+    played: 2,
+    wins: 0,
   },
 ];
 
