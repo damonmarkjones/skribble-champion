@@ -4,7 +4,13 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  font-family: var(--font-mono);
+  font-family: "Delicious Handrawn", cursive;
+}
+
+.info {
+  background-color: antiquewhite;
+  padding: 1rem;
+  font-size: 1.5rem;
 }
 
 .highscore {
@@ -13,18 +19,17 @@
 }
 
 .disclaimer {
-  font-size: 0.6rem;
+  font-size: 1rem;
 }
 
 .description {
   display: inherit;
   justify-content: center;
   align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  background-color: antiquewhite;
+  opacity: 0.9;
+  padding: 1rem;
 }
 
 .description h1 {
@@ -64,7 +69,10 @@
 }
 
 .playerScoresTable {
-  font-family: var(--font-mono);
+  background-color: antiquewhite;
+  opacity: 0.9;
+  font-size: 2rem;
+  padding: 2rem;
 }
 
 .playerScoresTable th,
@@ -78,4 +86,16 @@
 
 .left {
   text-align: left;
+}
+
+.gold {
+  color: #d4af37;
+}
+
+.silver {
+  color: #c0c0c0;
+}
+
+.bronze {
+  color: #cd7f32;
 }

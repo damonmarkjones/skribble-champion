@@ -4,6 +4,7 @@ export interface Player {
   name: string;
   played: number;
   wins: number;
+  archived?: boolean;
 }
 
 export interface HighScore {
@@ -23,10 +24,11 @@ const players: Player[] = [
     name: "Jen",
     played: 6,
     wins: 3,
+    archived: true,
   },
   {
     name: "Damo",
-    played: 9,
+    played: 10,
     wins: 1,
   },
   {
@@ -36,7 +38,7 @@ const players: Player[] = [
   },
   {
     name: "Mally",
-    played: 8,
+    played: 9,
     wins: 2,
   },
   {
@@ -46,27 +48,28 @@ const players: Player[] = [
   },
   {
     name: "Qal",
-    played: 10,
+    played: 12,
     wins: 0,
   },
   {
     name: "Edward",
-    played: 9,
-    wins: 1,
+    played: 11,
+    wins: 3,
   },
   {
     name: "Eva",
-    played: 7,
+    played: 8,
     wins: 0,
   },
   {
     name: "Davide",
     played: 8,
     wins: 1,
+    archived: true,
   },
   {
     name: "Liaaaaaam",
-    played: 7,
+    played: 9,
     wins: 2,
   },
   {
@@ -78,7 +81,7 @@ const players: Player[] = [
 
 export const playerScores = () => {
   const scores = players.sort(
-    (a: Player, b: Player) => b.wins - a.wins || a.played - b.played
+    (a: Player, b: Player) => b.wins - a.wins || b.played - a.played
   );
   return scores;
 };
