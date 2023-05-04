@@ -81,7 +81,7 @@ const players: Player[] = [
 
 export const playerScores = () => {
   const scores = players.sort(
-    (a: Player, b: Player) => b.wins - a.wins || b.played - a.played
+    (a: Player, b: Player) => b.wins - a.wins || a.played - b.played
   );
   return scores;
 };
