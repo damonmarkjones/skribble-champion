@@ -50,6 +50,7 @@ const players: Player[] = [
     name: "Qal",
     played: 14,
     wins: 0,
+    archived: true,
   },
   {
     name: "Edward",
@@ -80,6 +81,11 @@ const players: Player[] = [
   {
     name: "Biggins",
     played: 2,
+    wins: 0,
+  },
+  {
+    name: "Phil",
+    played: 0,
     wins: 0,
   },
 ];
